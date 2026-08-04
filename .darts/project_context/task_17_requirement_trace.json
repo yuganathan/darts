@@ -1,0 +1,76 @@
+{
+  "task_id": 17,
+  "task_name": "wordpress theme",
+  "execution_path": "planner_coder",
+  "complexity_tier": "simple",
+  "requirement_text": "Create a wordpress custom theme structure",
+  "generated_at": "2026-07-21T10:34:40.642Z",
+  "requirements": [
+    {
+      "req_id": "R-FULL",
+      "text": "Create a wordpress custom theme structure",
+      "status": "uncovered",
+      "covered_by": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "T-001",
+      "name": "WordPress Core Theme Files",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "style.css",
+        "index.php",
+        "functions.php",
+        "header.php",
+        "footer.php",
+        "sidebar.php",
+        "template-parts/content.php"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Create a wordpress custom theme structure",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    },
+    {
+      "task_id": "T-002",
+      "name": "WordPress Template Parts",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "style.css",
+        "index.php",
+        "functions.php",
+        "header.php",
+        "footer.php",
+        "sidebar.php",
+        "template-parts/content.php"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Create a wordpress custom theme structure",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_requirements": 1,
+    "covered": 0,
+    "partial": 0,
+    "uncovered": 1,
+    "coverage_pct": 0,
+    "total_tasks": 2,
+    "tasks_completed": 2,
+    "tasks_failed": 0,
+    "files_written": 7,
+    "validation_status": "passed"
+  }
+}

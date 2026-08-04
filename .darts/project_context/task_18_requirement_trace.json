@@ -1,0 +1,64 @@
+{
+  "task_id": 18,
+  "task_name": "wordpress theme",
+  "execution_path": "planner_coder",
+  "complexity_tier": "simple",
+  "requirement_text": "Create custom wordpress theme",
+  "generated_at": "2026-07-21T11:07:04.769Z",
+  "requirements": [
+    {
+      "req_id": "R-FULL",
+      "text": "Create custom wordpress theme",
+      "status": "uncovered",
+      "covered_by": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "T-001",
+      "name": "Verify Core Theme Files",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "style.css"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Create custom wordpress theme",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    },
+    {
+      "task_id": "T-002",
+      "name": "Enhancement (Add Basic Styles)",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "style.css"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Create custom wordpress theme",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_requirements": 1,
+    "covered": 0,
+    "partial": 0,
+    "uncovered": 1,
+    "coverage_pct": 0,
+    "total_tasks": 2,
+    "tasks_completed": 2,
+    "tasks_failed": 0,
+    "files_written": 1,
+    "validation_status": "passed"
+  }
+}
