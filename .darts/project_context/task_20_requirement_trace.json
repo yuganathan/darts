@@ -1,0 +1,134 @@
+{
+  "task_id": 20,
+  "task_name": "Dam Plugin",
+  "execution_path": "planner_coder",
+  "complexity_tier": "simple",
+  "requirement_text": "Dam Plugin custom plugin wordpress",
+  "generated_at": "2026-08-04T09:23:44.012Z",
+  "requirements": [
+    {
+      "req_id": "R-FULL",
+      "text": "Dam Plugin custom plugin wordpress",
+      "status": "uncovered",
+      "covered_by": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "T-001",
+      "name": "Backend - Plugin Entry Point",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "dam-plugin.php",
+        "includes/class-dam-plugin.php",
+        "includes/class-dam-plugin-activator.php",
+        "includes/class-dam-plugin-deactivator.php",
+        "admin/css/dam-plugin-admin.css",
+        "admin/js/dam-plugin-admin.js",
+        "admin/partials/dam-plugin-admin-display.php",
+        "public/css/dam-plugin-public.css",
+        "public/js/dam-plugin-public.js",
+        "public/partials/dam-plugin-public-display.php"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Dam Plugin custom plugin wordpress",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    },
+    {
+      "task_id": "T-002",
+      "name": "Backend - Assets & Classes",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "dam-plugin.php",
+        "includes/class-dam-plugin.php",
+        "includes/class-dam-plugin-activator.php",
+        "includes/class-dam-plugin-deactivator.php",
+        "admin/css/dam-plugin-admin.css",
+        "admin/js/dam-plugin-admin.js",
+        "admin/partials/dam-plugin-admin-display.php",
+        "public/css/dam-plugin-public.css",
+        "public/js/dam-plugin-public.js",
+        "public/partials/dam-plugin-public-display.php"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Dam Plugin custom plugin wordpress",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    },
+    {
+      "task_id": "T-003",
+      "name": "Frontend UI - Admin Interface",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "dam-plugin.php",
+        "includes/class-dam-plugin.php",
+        "includes/class-dam-plugin-activator.php",
+        "includes/class-dam-plugin-deactivator.php",
+        "admin/css/dam-plugin-admin.css",
+        "admin/js/dam-plugin-admin.js",
+        "admin/partials/dam-plugin-admin-display.php",
+        "public/css/dam-plugin-public.css",
+        "public/js/dam-plugin-public.js",
+        "public/partials/dam-plugin-public-display.php"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Dam Plugin custom plugin wordpress",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    },
+    {
+      "task_id": "T-004",
+      "name": "Frontend UI - Public Interface",
+      "status": "completed",
+      "req_refs": [
+        "REQ-FULL"
+      ],
+      "files_written": [
+        "dam-plugin.php",
+        "includes/class-dam-plugin.php",
+        "includes/class-dam-plugin-activator.php",
+        "includes/class-dam-plugin-deactivator.php",
+        "admin/css/dam-plugin-admin.css",
+        "admin/js/dam-plugin-admin.js",
+        "admin/partials/dam-plugin-admin-display.php",
+        "public/css/dam-plugin-public.css",
+        "public/js/dam-plugin-public.js",
+        "public/partials/dam-plugin-public-display.php"
+      ],
+      "module": "PlannerCoder",
+      "feature": "Dam Plugin custom plugin wordpress",
+      "validation": {
+        "compiled": true,
+        "spec_alignment": "unchecked"
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_requirements": 1,
+    "covered": 0,
+    "partial": 0,
+    "uncovered": 1,
+    "coverage_pct": 0,
+    "total_tasks": 4,
+    "tasks_completed": 4,
+    "tasks_failed": 0,
+    "files_written": 10,
+    "validation_status": "passed"
+  }
+}
